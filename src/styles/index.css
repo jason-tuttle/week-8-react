@@ -2,7 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: rgb(44, 59, 76);
+  background: #2C3B4C;
+  background: -webkit-linear-gradient(right, #2C3B4C, #224D7F, #2C3B4C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #2C3B4C, #224D7F, #2C3B4C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #2C3B4C, #224D7F, #2C3B4C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #2C3B4C, #224D7F, #2C3B4C); /* Standard syntax */
 }
 
 .container {
@@ -15,6 +19,12 @@ body {
   flex: 1 0 100%;
   color: white;
   background-color: #224D7F;
+  background: #224D7F; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #224D7F, #367BCB); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #224D7F, #367BCB); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #224D7F, #367BCB); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #224D7F, #367BCB); /* Standard syntax */
+  padding-left: 20px;
 }
 
 .form-container {
