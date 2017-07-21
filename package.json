@@ -14,7 +14,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "gitadd": "git add .",
+    "gitcommit": "git commit -m 'incremental update'",
+    "gitpush": "git push origin master",
+    "gitsave": "yarn run gitadd && yarn run gitcommit && yarn run gitpush"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0"
