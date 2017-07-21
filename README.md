@@ -47,4 +47,5 @@ Don't forget how to handle input changes - here's a tasty example:
         id="user"
         placeholder="Name or User Name"
         value={this.state.userName}/>```
+        
 Be sure to add the corresponding methods or expressions to your component. Look back over the lesson material for help.
