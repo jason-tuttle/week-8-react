@@ -13,7 +13,7 @@ export default class PlayListForm extends React.Component {
 
   handleChange(key) {
     return function(event) {
-      var state = {};
+      let state = {};
       state[key] = event.target.value;
       this.setState(state);
     }.bind(this);

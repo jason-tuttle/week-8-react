@@ -4,8 +4,8 @@ export default class NavBar extends React.Component {
 
   render() {
     return (
-      <div>
-
+      <div className="header">
+        <h1>Song Suggester</h1>
       </div>
     );
   }

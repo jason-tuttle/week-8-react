@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NavBar from './components/NavBar';
 import PlayListForm from './components/PlayListForm';
 import PlayList from './components/PlayList';
 import './styles/index.css';
@@ -24,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="container" id="root">
-        <header className="header"><h1>Song Suggester</h1></header>
+        <NavBar />
         <div className="container">
           <PlayListForm onFetch={this.fetchData} />
           <PlayList onFetch={this.fetchData} songs={this.state.songs} />
