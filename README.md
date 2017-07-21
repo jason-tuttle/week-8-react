@@ -7,10 +7,10 @@ You will need to create a new React application using ```create-react-app```.
 You will need to create styles and components folders and place the appropriate files in each, being sure to link the other files correctly to each other.
 Your project will need to have the following components:
 1. App.js
-* NavBar.js
-* PlayListForm.js
-* PlayList.js
-* PlayListItem.js
+2. NavBar.js
+3. PlayListForm.js
+4. PlayList.js
+5. PlayListItem.js
 
 You can use Bootstrap 4 for easy styling of this project.
 
@@ -26,10 +26,10 @@ Adding the various class names will help automatically style many of your featur
 This project is about managing state, props, lifecycles, and forms. The following should be true of your application:
 
 1. ```Your PlayList``` component should pass down the state in the form of props to your ```PlayListItem``` component which will render the actual play list entries. (Hint: PlayListItem should be imported in PlayList)
-* Your ```App.js``` component should only have import statements for your ```NavBar```, ```PlayList```, and ```PlayListForm```.
-* The state for your ```PlayListForm``` component should have ```userName```, ```songArtist```, ```songTitle```, and ```songNotes``` in order to function properly with the fetch functions from the ```tinylasgna.js``` file that you will copy into the component. Follow the directions in that file.
-* The state for your ```PlayList``` should just have one key value pair, ```songs```, in order to properly function with the ```fetch``` function from the ```tinylasagna.js``` file that you will copy into the ```PlayListComponent``` (follow the directions in that file).
-* The styling is up to you, but please make this a polished product!
+2. Your ```App.js``` component should only have import statements for your ```NavBar```, ```PlayList```, and ```PlayListForm```.
+3. The state for your ```PlayListForm``` component should have ```userName```, ```songArtist```, ```songTitle```, and ```songNotes``` in order to function properly with the fetch functions from the ```tinylasgna.js``` file that you will copy into the component. Follow the directions in that file.
+4. The state for your ```PlayList``` should just have one key value pair, ```songs```, in order to properly function with the ```fetch``` function from the ```tinylasagna.js``` file that you will copy into the ```PlayListComponent``` (follow the directions in that file).
+5. The styling is up to you, but please make this a polished product!
 
 ### Hints  
 
